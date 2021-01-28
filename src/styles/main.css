@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+
+body {
+  padding: 0;
+  margin:0;
+  font-family: 'Inter', 'fantasy';
+}
+
+.line{
+ 
+  border-top: 4px solid black;
+  width: 100%;
+}
+
+.h1, h1 {
+  font-size: 2.5rem;
+}
+.newpadding{
+  padding:5rem!important;
+}
+.imgs{
+  width: 12px;
+  height: 12px;
+}
+.over{
+  position: absolute;
+  margin-top: 50%;
+  margin-left: -50%;
+ transform: translate(-50%,-50%);
+}
+@media all and (max-width: 767px) {
+ 
+  .text_mobile{
+    text-align: center!important;
+  }
+}

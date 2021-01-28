@@ -35,7 +35,7 @@ function Navbar() {
           </div>
         </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
-          <ul className='nav-menu-items' onClick={showSidebar}>
+          <ul className='navbar-right nav-menu-items' onClick={showSidebar}>
             <li className='navbar-toggle'>
               <div>
                <h5 className="colore">X</h5>
